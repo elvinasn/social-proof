@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body, html{
+    overflow: hidden;
+}
+body{
+    position: relative;
+    background-color: white;   
+    background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1080px;
+    height: 100%;
+    max-height: 500px;
+}
+.wrapper__top, .wrapper__bot{
+    display: flex;
+}
+.wrapper__top{
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: 44%;
+}
+.wrapper__top-left{
+    width: 45%;
+}
+.top__paragraph{
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+.wrapper__top-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.top__right-first{
+    align-self: flex-start;
+}
+.top__right-second{
+    align-self: center;
+}
+.top__right-third{
+    align-self: flex-end;
+}
+.top__ratings{
+    display: flex;
+    background-color:hsl(300, 24%, 96%);
+    gap: 25px;
+    width: 100%;
+    max-width: 420px;
+    padding: 20px 0px 15px 20px;
+    border-radius: 8px;
+}
+.top__ratings img{
+    margin: 2px;
+}
+.wrapper__bot{
+    justify-content: space-between;
+    height: 56%;
+}
+.bot__section{
+    background-color: hsl(300, 43%, 22%);
+    width: 32%;
+    height: 90%;
+    padding: 40px 30px; 
+    border-radius: 8px;
+    font-weight: 500;
+}
+.bot__section-first{
+    align-self: flex-start;
+}
+.bot__section-second{
+    align-self: center;
+}
+.bot__section-third{
+    align-self: flex-end;
+}
+.section__identity{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.section__identity img{
+    width: 100%;
+    max-width: 40px;
+    border-radius: 20px;
+}
+.identity__name{
+    color: white;
+    font-weight: 700;
+}
+.identity__status{
+    color:hsl(333, 80%, 67%);
+}
+.section__paragraph{
+    color: white;
+    font-weight: 400;
+}
+h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 45px;
+    margin-bottom: 10px;
+}
