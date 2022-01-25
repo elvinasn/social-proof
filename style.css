@@ -37,6 +37,7 @@ body{
 }
 .top__paragraph{
     color: hsl(303, 10%, 53%);
+    line-height: 1.7;
     font-weight: 500;
 }
 .wrapper__top-right{
