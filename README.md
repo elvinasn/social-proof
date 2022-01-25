@@ -1,1 +1,2 @@
 # social-proof
+Social proof site created using HTML and CSS - including flexbox and media query so the page is responsive. Also used scalable units instead of pixels. Live preview: https://elvinasn.github.io/social-proof/
